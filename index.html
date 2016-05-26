@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UI Grid Editable Rows - example</title>
+    <link rel="stylesheet" href="build/css/bootstrap.css" />
+    <link rel="stylesheet" href="build/css/font-awesome.css" />
+    <link rel="stylesheet" href="build/css/ui-grid.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="build/js/all-libs.min.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-controller="MyCtrl">
+    <div id="center">
+        <h1>UI Grid Example</h1>
+        <p><a target="_blank" href="http://ui-grid.info/docs/#/tutorial/205_row_editable">docs</a></p>
+        <div ui-grid="gridOptions" ui-grid-edit ui-grid-row-edit ui-grid-cellNav class="grid"></div>
+    </div>
+  </body>
+</html>
