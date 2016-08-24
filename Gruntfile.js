@@ -67,6 +67,11 @@ module.exports = function (grunt) {
                         src: 'ui-grid.svg', dest: 'build/css'
                    },
                    {
+                        expand: true,
+                        cwd: 'node_modules/angular-ui-grid/',
+                        src: 'ui-grid.css', dest: 'build/css'
+                   },
+                   {
                        expand: true,
                        flatten: true,
                        cwd: 'node_modules/bootstrap/dist/css/',
